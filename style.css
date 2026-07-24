@@ -150,3 +150,59 @@ width:110px;
 }
 
 }
+.background{
+
+position:fixed;
+
+inset:0;
+
+background:
+radial-gradient(circle at top,#222,#0b0b0b 70%);
+
+z-index:-1;
+
+}
+
+.gold-line{
+
+width:120px;
+
+height:3px;
+
+background:#d4af37;
+
+margin:20px auto 35px;
+
+border-radius:20px;
+
+}
+
+.btn{
+
+box-shadow:0 0 20px rgba(212,175,55,.15);
+
+}
+
+.btn:hover{
+
+box-shadow:0 0 30px rgba(212,175,55,.45);
+
+}
+
+.logo{
+
+filter:drop-shadow(0 0 18px rgba(212,175,55,.25));
+
+}
+
+footer{
+
+margin-top:40px;
+
+text-align:center;
+
+color:#777;
+
+font-size:14px;
+
+}
